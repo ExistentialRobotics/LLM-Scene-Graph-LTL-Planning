@@ -1,0 +1,28 @@
+p1:  # bit 1 in the word, code 2
+  type: kEnterRoom
+  uuid: 2  # enter bathroom on floor 0, room id: 1
+p2:  # bit 2 in the word, code 4
+  reach_distance: -1.0
+  type: kReachObject
+  uuid: 27  # reach sink in the bathroom on floor 0, object id: 7
+p3:  # bit 3 in the word, code 8
+  type: kEnterRoom
+  uuid: 13  # enter dining room on floor 1, room id: 9
+p4:  # bit 7 in the word, code 128
+  reach_distance: -1.0
+  type: kReachObject
+  uuid: 43  # reach chair in the dining room on floor 1, object id: 23
+p5:  # bit 0 in the word, code 1
+  reach_distance: -1.0
+  type: kReachObject
+  uuid: 44  # reach chair in the dining room on floor 1, object id: 24
+p6:  # bit 4 in the word, code 16
+  reach_distance: -1.0
+  type: kReachObject
+  uuid: 45  # reach chair in the dining room on floor 1, object id: 25
+p7:  # bit 5 in the word, code 32
+  type: kEnterRoom
+  uuid: 16  # enter living room on floor 1, room id: 12
+p8:  # bit 6 in the word, code 64
+  type: kEnterRoom
+  uuid: 19  # enter staircase on floor 1, room id: 15

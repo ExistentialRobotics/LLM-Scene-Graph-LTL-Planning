@@ -1,0 +1,34 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+matplotlib = "*"
+scikit-build = "*"
+opencv-contrib-python-headless = "*"
+trimesh = "*"
+pillow = "*"
+scipy = "*"
+vedo = "*"
+pyyaml = "*"
+shapely = "*"
+pyglet = "*"
+networkx = "*"
+rtree = "*"
+scikit-image = "*"
+ray = "*"
+langchain-openai = "*"
+pyside2 = "*"
+imageio = {extras = ["ffmpeg"], version = "*"}
+pygraphviz = "*"
+pydot = "*"
+tqdm = "*"
+black = "*"
+ipython = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3"
