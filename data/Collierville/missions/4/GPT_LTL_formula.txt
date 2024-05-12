@@ -1,0 +1,1 @@
+['AND', 'AND', 'AND', 'EVENTUALLY', 'reach(object_56)', 'EVENTUALLY', 'reach(object_57)', 'EVENTUALLY', 'reach(object_58)', 'ALWAYS', 'NEGATION', 'AND', 'AND', 'reach(object_59)', 'reach(object_60)', 'reach(object_61)']

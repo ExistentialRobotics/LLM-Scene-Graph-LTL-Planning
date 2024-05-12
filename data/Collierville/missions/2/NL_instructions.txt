@@ -1,0 +1,1 @@
+First visit the dining room, then visit the living room. Only after visiting the previous two rooms, visit one of the bathrooms.

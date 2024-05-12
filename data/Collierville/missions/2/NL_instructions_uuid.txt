@@ -1,0 +1,1 @@
+First visit room_12, then visit room_16. Only after visiting the previous two rooms, visit room_2 or room_4.

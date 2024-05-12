@@ -1,0 +1,1 @@
+Clean object_21, object_22, and object_23 in room_10. Eventually water object_41 in room_2 and object_42 in room_4 one after another.

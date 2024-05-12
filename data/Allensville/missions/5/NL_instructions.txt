@@ -1,0 +1,1 @@
+1) Do not open the fridge if you go to the kitchen. 2) Check if macrowave door is open.

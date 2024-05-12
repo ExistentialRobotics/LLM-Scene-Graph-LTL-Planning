@@ -1,0 +1,1 @@
+Take object_39 in room_13 and then put in object_23. Also, take object_37 and object_38 in room_15 and then put them in object_28.

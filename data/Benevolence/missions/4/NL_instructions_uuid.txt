@@ -1,0 +1,1 @@
+In room_16, reach object_60 and object_61 one after the other to turn them off. Then go to room_8 and turn on object_59. Avoid entering room_7.

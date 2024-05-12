@@ -1,0 +1,103 @@
+2:
+  1:
+  - move(2, 9)
+  - move(9, 11)
+  - reach(11, 14)
+  2:
+  - move(2, 9)
+  - move(9, 11)
+  - reach(11, 14)
+4:
+  1:
+  - move(4, 7)
+  - move(7, 8)
+  - move(8, 9)
+  - move(9, 11)
+  - reach(11, 14)
+  2:
+  - move(4, 7)
+  - move(7, 8)
+  - move(8, 9)
+  - move(9, 11)
+  - reach(11, 14)
+5:
+  1:
+  - move(5, 9)
+  - move(9, 11)
+  - reach(11, 14)
+  2:
+  - move(5, 9)
+  - move(9, 11)
+  - reach(11, 14)
+6:
+  1:
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  - move(9, 11)
+  - reach(11, 14)
+  2:
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  - move(9, 11)
+  - reach(11, 14)
+7:
+  1:
+  - move(7, 8)
+  - move(8, 9)
+  - move(9, 11)
+  - reach(11, 14)
+  2:
+  - move(7, 8)
+  - move(8, 9)
+  - move(9, 11)
+  - reach(11, 14)
+8:
+  1:
+  - move(8, 9)
+  - move(9, 11)
+  - reach(11, 14)
+  2:
+  - move(8, 9)
+  - move(9, 11)
+  - reach(11, 14)
+9:
+  1:
+  - move(9, 11)
+  - reach(11, 14)
+  2:
+  - move(9, 11)
+  - reach(11, 14)
+10:
+  1:
+  - move(10, 11)
+  - reach(11, 14)
+  2:
+  - move(10, 11)
+  - reach(11, 14)
+11:
+  1:
+  - reach(11, 14)
+  2:
+  - reach(11, 14)
+12:
+  1:
+  - move(12, 9)
+  - move(9, 11)
+  - reach(11, 14)
+  2:
+  - move(12, 9)
+  - move(9, 11)
+  - reach(11, 14)
+13:
+  1:
+  - move(13, 8)
+  - move(8, 9)
+  - move(9, 11)
+  - reach(11, 14)
+  2:
+  - move(13, 8)
+  - move(8, 9)
+  - move(9, 11)
+  - reach(11, 14)

@@ -1,0 +1,1 @@
+{'enter(room_13)': 'p1', 'reach(object_39)': 'p2', 'reach(object_23)': 'p3', 'enter(room_15)': 'p4', 'reach(object_37)': 'p5', 'reach(object_38)': 'p6', 'reach(object_28)': 'p7'}

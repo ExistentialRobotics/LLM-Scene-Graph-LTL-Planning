@@ -1,0 +1,1 @@
+['AND', 'AND', 'EVENTUALLY', 'enter(room_10)', 'EVENTUALLY', 'enter(room_11)', 'ALWAYS', 'NEGATION', 'enter(room_8)']

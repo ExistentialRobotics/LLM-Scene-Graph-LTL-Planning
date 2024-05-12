@@ -1,0 +1,57 @@
+HOA: v1
+States: 9
+Start: 6
+AP: 5 "p2" "p3" "p1" "p4" "p5"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0 {0}
+[t] 0
+State: 1
+[0&1&2] 0
+[!2] 1
+[0&!1&2] 4
+[!0&2] 5
+State: 2
+[1&4] 0
+[!1&!4] 2
+[!1&4] 4
+[1&!4] 8
+State: 3
+[0&1&4] 0
+[0&!1&!4] 2
+[!0&!4] 3
+[0&!1&4] 4
+[!0&4] 5
+[0&1&!4] 8
+State: 4
+[1] 0
+[!1] 4
+State: 5
+[0&1] 0
+[0&!1] 4
+[!0] 5
+State: 6
+[0&1&2&4] 0
+[!2&!3 | !2&4] 1
+[0&!1&2&!4] 2
+[!0&2&!4] 3
+[0&!1&2&4] 4
+[!0&2&4] 5
+[!2&3&!4] 7
+[0&1&2&!4] 8
+State: 7
+[0&1&2&4] 0
+[!2&4] 1
+[0&!1&2&!4] 2
+[!0&2&!4] 3
+[0&!1&2&4] 4
+[!0&2&4] 5
+[!2&!4] 7
+[0&1&2&!4] 8
+State: 8
+[4] 0
+[!4] 8
+--END--

@@ -1,0 +1,16 @@
+p1:
+  type: kEnterRoom
+  uuid: 8
+p2:
+  reach_distance: -1.0
+  type: kReachObject
+  uuid: 35
+p3:
+  type: kEnterRoom
+  uuid: 16
+p4:
+  type: kEnterRoom
+  uuid: 7
+p5:
+  type: kEnterRoom
+  uuid: 20

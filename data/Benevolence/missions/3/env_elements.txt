@@ -1,0 +1,1 @@
+[object_35, room_20, room_16, room_7, room_8]

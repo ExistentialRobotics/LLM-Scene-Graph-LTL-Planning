@@ -1,0 +1,1 @@
+1) Do not open object_19 if you go to room_11. 2) Check if object_14 door is open.

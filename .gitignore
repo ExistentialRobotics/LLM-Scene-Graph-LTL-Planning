@@ -1,13 +1,3 @@
-data/Benevolence
-data/Allensville
-data/Beechwood
-data/Coffeen
-data/Collierville
-data/Cosmos
-data/Forkland
-data/Hiteman
-data/Ihlen
-
 # Created by https://www.toptal.com/developers/gitignore/api/python,c++
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,c++
 
@@ -19,7 +9,7 @@ data/Ihlen
 *.slo
 *.lo
 *.o
-*.obj
+#*.obj
 
 # Precompiled Headers
 *.gch
@@ -193,13 +183,13 @@ dmypy.json
 .prof
 
 # scene graph data
-*.npz
-*.zip
-*.pkl
-*.gz
+#*.npz
+#*.zip
+#*.pkl
+#*.gz
 
 # spot data
-spot_install/
-*.aut
+#spot_install/
+#*.aut
 
 # End of https://www.toptal.com/developers/gitignore/api/python,c++

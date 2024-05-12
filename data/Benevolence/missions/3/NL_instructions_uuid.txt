@@ -1,0 +1,1 @@
+Visit room_8, find object_35, then head to room_16. Also eventually visit room_20 if you visit a room_7 or room_8.

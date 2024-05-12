@@ -1,0 +1,1 @@
+['AND', 'EVENTUALLY', 'AND', 'AND', 'enter(room_13)', 'reach(object_39)', 'EVENTUALLY', 'reach(object_23)', 'EVENTUALLY', 'AND', 'AND', 'enter(room_15)', 'AND', 'reach(object_37)', 'reach(object_38)', 'EVENTUALLY', 'reach(object_28)']

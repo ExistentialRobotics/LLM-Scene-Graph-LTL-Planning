@@ -1,0 +1,1 @@
+1) Water object_43 in room_6. 2) Vacuum clean room_7, room_8, and room_9 only if you go to room_5 or room_6.

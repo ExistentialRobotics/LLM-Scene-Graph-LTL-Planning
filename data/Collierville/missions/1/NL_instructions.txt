@@ -1,0 +1,1 @@
+Clean all the corridors, except the one in floor 0.

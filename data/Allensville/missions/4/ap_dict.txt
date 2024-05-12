@@ -1,0 +1,1 @@
+{'enter(room_10)': 'p1', 'enter(room_2)': 'p2', 'enter(room_4)': 'p3', 'enter(room_11)': 'p4'}

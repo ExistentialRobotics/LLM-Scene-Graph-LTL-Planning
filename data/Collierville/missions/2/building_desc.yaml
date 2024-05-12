@@ -1,0 +1,71 @@
+Building description:
+- corridor_8:
+            - floor: 0
+            - id: room_8
+            - objects:
+                []
+- garage_13:
+            - floor: 0
+            - id: room_13
+            - objects:
+                ['chair_42': 'object_42']
+- home_office_14:
+            - floor: 0
+            - id: room_14
+            - objects:
+                ['keyboard_19': 'object_19', 'chair_43': 'object_43', 'tv_59': 'object_59', 'tv_60': 'object_60', 'tv_61': 'object_61']
+- staircase_17:
+            - floor: 0
+            - id: room_17
+            - objects:
+                []
+- bathroom_2:
+            - floor: 1
+            - id: room_2
+            - objects:
+                ['sink_25': 'object_25', 'sink_26': 'object_26', 'vase_34': 'object_34', 'toilet_38': 'object_38']
+- corridor_10:
+            - floor: 1
+            - id: room_10
+            - objects:
+                ['bottle_29': 'object_29', 'bottle_30': 'object_30', 'cup_31': 'object_31', 'vase_33': 'object_33', 'potted plant_45': 'object_45', 'potted plant_49': 'object_49']
+- dining_room_12:
+            - floor: 1
+            - id: room_12
+            - objects:
+                ['vase_32': 'object_32', 'chair_39': 'object_39', 'chair_40': 'object_40', 'chair_41': 'object_41', 'dining table_53': 'object_53', 'dining table_54': 'object_54', 'dining table_55': 'object_55']
+- kitchen_15:
+            - floor: 1
+            - id: room_15
+            - objects:
+                ['microwave_20': 'object_20', 'oven_21': 'object_21', 'sink_22': 'object_22', 'refrigerator_27': 'object_27', 'potted plant_50': 'object_50']
+- living_room_16:
+            - floor: 1
+            - id: room_16
+            - objects:
+                ['vase_35': 'object_35', 'couch_44': 'object_44', 'potted plant_46': 'object_46', 'potted plant_47': 'object_47', 'tv_56': 'object_56', 'tv_57': 'object_57', 'tv_58': 'object_58']
+- staircase_18:
+            - floor: 1
+            - id: room_18
+            - objects:
+                []
+- bathroom_4:
+            - floor: 2
+            - id: room_4
+            - objects:
+                ['sink_23': 'object_23', 'sink_24': 'object_24', 'bottle_28': 'object_28', 'toilet_36': 'object_36', 'toilet_37': 'object_37']
+- bedroom_6:
+            - floor: 2
+            - id: room_6
+            - objects:
+                ['bed_52': 'object_52']
+- bedroom_7:
+            - floor: 2
+            - id: room_7
+            - objects:
+                ['potted plant_48': 'object_48', 'bed_51': 'object_51']
+- corridor_11:
+            - floor: 2
+            - id: room_11
+            - objects:
+                []

@@ -1,0 +1,1 @@
+Water object_49, object_50, and object_51. When watering object_51 in room_2, flush object_41 in the same room. Also don't use object_23 in room_15.

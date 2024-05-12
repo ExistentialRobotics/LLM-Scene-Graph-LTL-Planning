@@ -1,0 +1,16 @@
+p1:
+  reach_distance: -1.0
+  type: kReachObject
+  uuid: 44
+p2:
+  reach_distance: -1.0
+  type: kReachObject
+  uuid: 45
+p3:
+  reach_distance: -1.0
+  type: kReachObject
+  uuid: 14
+p4:
+  reach_distance: -1.0
+  type: kReachObject
+  uuid: 15

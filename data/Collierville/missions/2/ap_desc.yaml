@@ -1,0 +1,12 @@
+p1:
+  type: kEnterRoom
+  uuid: 12
+p2:
+  type: kEnterRoom
+  uuid: 16
+p3:
+  type: kEnterRoom
+  uuid: 2
+p4:
+  type: kEnterRoom
+  uuid: 4

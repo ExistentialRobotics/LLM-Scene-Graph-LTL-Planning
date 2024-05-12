@@ -1,0 +1,325 @@
+2:
+  1:
+  - move(2, 9)
+  - move(9, 6)
+  - reach(6, 43)
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  2:
+  - move(2, 9)
+  - move(9, 7)
+  3:
+  - move(2, 9)
+  - move(9, 8)
+  4:
+  - move(2, 9)
+  5:
+  - move(2, 9)
+  - move(9, 8)
+  6:
+  - move(2, 9)
+  - move(9, 8)
+  - move(8, 7)
+  7:
+  - move(2, 9)
+  - move(9, 7)
+  8:
+  - move(2, 9)
+  - move(9, 7)
+  - move(7, 8)
+4:
+  1:
+  - move(4, 7)
+  - move(7, 6)
+  - reach(6, 43)
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  2:
+  - move(4, 7)
+  3:
+  - move(4, 7)
+  - move(7, 8)
+  4:
+  - move(4, 7)
+  - move(7, 9)
+  5:
+  - move(4, 7)
+  - move(7, 8)
+  - move(8, 9)
+  6:
+  - move(4, 7)
+  - move(7, 8)
+  - move(8, 9)
+  7:
+  - move(4, 7)
+  - move(7, 9)
+  8:
+  - move(4, 7)
+  - move(7, 8)
+5:
+  1:
+  - move(5, 9)
+  - move(9, 6)
+  - reach(6, 43)
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  2:
+  - move(5, 9)
+  - move(9, 7)
+  3:
+  - move(5, 9)
+  - move(9, 8)
+  4:
+  - move(5, 9)
+  5:
+  - move(5, 9)
+  - move(9, 8)
+  6:
+  - move(5, 9)
+  - move(9, 8)
+  - move(8, 7)
+  7:
+  - move(5, 9)
+  - move(9, 7)
+  8:
+  - move(5, 9)
+  - move(9, 7)
+  - move(7, 8)
+6:
+  1:
+  - reach(6, 43)
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  2:
+  - move(6, 7)
+  3:
+  - move(6, 7)
+  - move(7, 8)
+  4:
+  - move(6, 7)
+  - move(7, 9)
+  5:
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  6:
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  7:
+  - move(6, 7)
+  - move(7, 9)
+  8:
+  - move(6, 7)
+  - move(7, 8)
+7:
+  1:
+  - reach(7, 43)
+  - move(7, 6)
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  2: []
+  3:
+  - move(7, 8)
+  4:
+  - move(7, 9)
+  5:
+  - move(7, 8)
+  - move(8, 9)
+  6:
+  - move(7, 8)
+  - move(8, 9)
+  7:
+  - move(7, 9)
+  8:
+  - move(7, 8)
+8:
+  1:
+  - move(8, 9)
+  - move(9, 2)
+  - reach(2, 43)
+  - move(2, 9)
+  - move(9, 6)
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  2:
+  - move(8, 7)
+  3: []
+  4:
+  - move(8, 9)
+  5:
+  - move(8, 9)
+  6:
+  - move(8, 7)
+  - move(7, 8)
+  - move(8, 9)
+  7:
+  - move(8, 7)
+  - move(7, 9)
+  8:
+  - move(8, 7)
+  - move(7, 8)
+9:
+  1:
+  - move(9, 6)
+  - reach(6, 43)
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  2:
+  - move(9, 7)
+  3:
+  - move(9, 8)
+  4: []
+  5:
+  - move(9, 8)
+  - move(8, 9)
+  6:
+  - move(9, 7)
+  - move(7, 8)
+  - move(8, 9)
+  7:
+  - move(9, 7)
+  - move(7, 9)
+  8:
+  - move(9, 7)
+  - move(7, 8)
+10:
+  1:
+  - move(10, 11)
+  - move(11, 9)
+  - move(9, 5)
+  - reach(5, 43)
+  - move(5, 9)
+  - move(9, 6)
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  2:
+  - move(10, 11)
+  - move(11, 9)
+  - move(9, 7)
+  3:
+  - move(10, 9)
+  - move(9, 8)
+  4:
+  - move(10, 9)
+  5:
+  - move(10, 11)
+  - move(11, 9)
+  - move(9, 8)
+  6:
+  - move(10, 12)
+  - move(12, 9)
+  - move(9, 8)
+  - move(8, 7)
+  7:
+  - move(10, 11)
+  - move(11, 9)
+  - move(9, 7)
+  8:
+  - move(10, 11)
+  - move(11, 9)
+  - move(9, 7)
+  - move(7, 8)
+11:
+  1:
+  - move(11, 9)
+  - move(9, 6)
+  - reach(6, 43)
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  2:
+  - move(11, 9)
+  - move(9, 7)
+  3:
+  - move(11, 9)
+  - move(9, 8)
+  4:
+  - move(11, 9)
+  5:
+  - move(11, 9)
+  - move(9, 8)
+  - move(8, 9)
+  6:
+  - move(11, 9)
+  - move(9, 7)
+  - move(7, 8)
+  - move(8, 9)
+  7:
+  - move(11, 9)
+  - move(9, 7)
+  8:
+  - move(11, 9)
+  - move(9, 7)
+  - move(7, 8)
+12:
+  1:
+  - move(12, 9)
+  - move(9, 6)
+  - reach(6, 43)
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  2:
+  - move(12, 9)
+  - move(9, 7)
+  3:
+  - move(12, 9)
+  - move(9, 8)
+  4:
+  - move(12, 9)
+  5:
+  - move(12, 9)
+  - move(9, 8)
+  6:
+  - move(12, 9)
+  - move(9, 8)
+  - move(8, 7)
+  7:
+  - move(12, 9)
+  - move(9, 7)
+  8:
+  - move(12, 9)
+  - move(9, 7)
+  - move(7, 8)
+13:
+  1:
+  - move(13, 8)
+  - move(8, 7)
+  - move(7, 6)
+  - reach(6, 43)
+  - move(6, 7)
+  - move(7, 8)
+  - move(8, 9)
+  2:
+  - move(13, 8)
+  - move(8, 7)
+  3:
+  - move(13, 8)
+  4:
+  - move(13, 8)
+  - move(8, 9)
+  5:
+  - move(13, 8)
+  - move(8, 9)
+  6:
+  - move(13, 8)
+  - move(8, 7)
+  - move(7, 8)
+  - move(8, 9)
+  7:
+  - move(13, 8)
+  - move(8, 7)
+  - move(7, 9)
+  8:
+  - move(13, 8)
+  - move(8, 7)
+  - move(7, 8)

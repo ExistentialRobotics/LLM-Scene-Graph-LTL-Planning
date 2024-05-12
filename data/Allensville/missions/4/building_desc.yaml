@@ -1,0 +1,56 @@
+Building description:
+- bathroom_2:
+            - floor: 0
+            - id: room_2
+            - objects:
+                ['sink_16': 'object_16', 'vase_20': 'object_20', 'toilet_33': 'object_33', 'potted plant_41': 'object_41']
+- bathroom_4:
+            - floor: 0
+            - id: room_4
+            - objects:
+                ['sink_18': 'object_18', 'toilet_34': 'object_34', 'potted plant_42': 'object_42']
+- bedroom_5:
+            - floor: 0
+            - id: room_5
+            - objects:
+                ['bed_44': 'object_44']
+- bedroom_6:
+            - floor: 0
+            - id: room_6
+            - objects:
+                ['vase_24': 'object_24', 'potted plant_43': 'object_43', 'bed_45': 'object_45']
+- corridor_7:
+            - floor: 0
+            - id: room_7
+            - objects:
+                []
+- corridor_8:
+            - floor: 0
+            - id: room_8
+            - objects:
+                []
+- corridor_9:
+            - floor: 0
+            - id: room_9
+            - objects:
+                []
+- dining_room_10:
+            - floor: 0
+            - id: room_10
+            - objects:
+                ['vase_21': 'object_21', 'vase_22': 'object_22', 'vase_23': 'object_23', 'chair_36': 'object_36', 'chair_37': 'object_37', 'dining table_46': 'object_46']
+- kitchen_11:
+            - floor: 0
+            - id: room_11
+            - objects:
+                ['microwave_14': 'object_14', 'oven_15': 'object_15', 'sink_17': 'object_17', 'refrigerator_19': 'object_19', 'bowl_29': 'object_29', 'apple_31': 'object_31', 'apple_32': 'object_32', 'chair_39': 'object_39']
+- living_room_12:
+            - floor: 0
+            - id: room_12
+            - objects:
+                ['bowl_30': 'object_30', 'chair_35': 'object_35', 'chair_38': 'object_38', 'couch_40': 'object_40']
+- lobby_13:
+            - floor: 0
+            - id: room_13
+            - objects:
+                ['vase_25': 'object_25', 'vase_26': 'object_26', 'vase_27': 'object_27', 'vase_28': 'object_28']

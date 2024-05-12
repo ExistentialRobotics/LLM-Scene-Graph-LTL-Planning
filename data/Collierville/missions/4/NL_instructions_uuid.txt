@@ -1,0 +1,1 @@
+1) Clean the screen of object_56, object_57, and object_58. 2) Don't touch object_59, object_60, and object_61.

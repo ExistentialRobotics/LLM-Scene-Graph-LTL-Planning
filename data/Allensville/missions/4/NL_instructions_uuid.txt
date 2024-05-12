@@ -1,0 +1,1 @@
+Visit room_2 or room_4 after visiting room_10. And always avoid room_11.

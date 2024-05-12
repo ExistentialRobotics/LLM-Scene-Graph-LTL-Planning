@@ -1,0 +1,1 @@
+[room_5, room_8, room_7, room_9, object_43, room_6]

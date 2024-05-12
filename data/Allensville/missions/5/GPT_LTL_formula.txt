@@ -1,0 +1,1 @@
+['AND', 'IMPLY', 'enter(room_11)', 'NEGATION', 'reach(object_19)', 'EVENTUALLY', 'reach(object_14)']

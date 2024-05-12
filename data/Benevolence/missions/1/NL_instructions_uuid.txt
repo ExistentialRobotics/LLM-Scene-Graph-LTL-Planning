@@ -1,0 +1,1 @@
+Visit room_2 and avoid object_27, then go to room_13 and sit on object_43. Always avoid room_16 and room_19 next to it.

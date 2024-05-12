@@ -1,0 +1,1 @@
+1) Water object_46 and object_47 in room_16 one after the other. 2) Make object_52 in room_6 and object_51 in room_7. 3) If you pass through room_15, visit room_13 at some point to drop the grocery bag in the car.

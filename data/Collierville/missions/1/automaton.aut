@@ -1,0 +1,23 @@
+HOA: v1
+States: 4
+Start: 2
+AP: 3 "p1" "p2" "p3"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels state-acc deterministic
+properties: stutter-invariant very-weak
+--BODY--
+State: 0 {0}
+[!2] 0
+State: 1
+[1&!2] 0
+[!1&!2] 1
+State: 2
+[0&1&!2] 0
+[0&!1&!2] 1
+[!0&!1&!2] 2
+[!0&1&!2] 3
+State: 3
+[0&!2] 0
+[!0&!2] 3
+--END--

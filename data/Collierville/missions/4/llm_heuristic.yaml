@@ -1,0 +1,538 @@
+2:
+  1:
+  - move(2, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  2:
+  - move(2, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - move(2, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - move(2, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - move(2, 10)
+  - move(10, 16)
+  - reach(16, 58)
+  6:
+  - move(2, 10)
+  - move(10, 16)
+  - reach(16, 57)
+  - reach(16, 58)
+  7:
+  - move(2, 10)
+  - move(10, 16)
+  - reach(16, 57)
+4:
+  1:
+  - move(4, 7)
+  - move(7, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  2:
+  - move(4, 7)
+  - move(7, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - move(4, 6)
+  - move(6, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - move(4, 7)
+  - move(7, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - move(4, 7)
+  - move(7, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 58)
+  6:
+  - move(4, 7)
+  - move(7, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 57)
+  - reach(16, 58)
+  7:
+  - move(4, 7)
+  - move(7, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 57)
+6:
+  1:
+  - move(6, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  2:
+  - move(6, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - move(6, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - move(6, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - move(6, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 58)
+  6:
+  - move(6, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 57)
+  - reach(16, 58)
+  7:
+  - move(6, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 57)
+7:
+  1:
+  - move(7, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  2:
+  - move(7, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - move(7, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - move(7, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - move(7, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 58)
+  6:
+  - move(7, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 57)
+  - reach(16, 58)
+  7:
+  - move(7, 11)
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 57)
+8:
+  1:
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  2:
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 58)
+  6:
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 57)
+  - reach(16, 58)
+  7:
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 57)
+10:
+  1:
+  - move(10, 16)
+  - reach(16, 56)
+  2:
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - move(10, 16)
+  - reach(16, 58)
+  6:
+  - move(10, 16)
+  - reach(16, 57)
+  - reach(16, 58)
+  7:
+  - reach(10, 57)
+11:
+  1:
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  2:
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 58)
+  6:
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 57)
+  - reach(16, 58)
+  7:
+  - move(11, 18)
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 57)
+12:
+  1:
+  - move(12, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  2:
+  - move(12, 16)
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - move(12, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - move(12, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - move(12, 10)
+  - move(10, 16)
+  - reach(16, 58)
+  6:
+  - move(12, 16)
+  - reach(16, 57)
+  - reach(16, 58)
+  7:
+  - move(12, 16)
+  - reach(16, 57)
+13:
+  1:
+  - move(13, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  2:
+  - move(13, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - move(13, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - move(13, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - move(13, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 58)
+  6:
+  - move(13, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 57)
+  - reach(16, 58)
+  7:
+  - move(13, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 57)
+14:
+  1:
+  - move(14, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  2:
+  - move(14, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - move(14, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - move(14, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - move(14, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 58)
+  6:
+  - move(14, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 57)
+  - reach(16, 58)
+  7:
+  - move(14, 8)
+  - move(8, 17)
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 57)
+15:
+  1:
+  - move(15, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  2:
+  - move(15, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - move(15, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - move(15, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - move(15, 10)
+  - move(10, 16)
+  - reach(16, 58)
+  6:
+  - reach(15, 57)
+  - reach(15, 58)
+  7:
+  - move(15, 10)
+  - move(10, 16)
+  - reach(16, 57)
+16:
+  1:
+  - reach(16, 56)
+  2:
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - reach(16, 58)
+  6:
+  - reach(16, 57)
+  - reach(16, 58)
+  7:
+  - reach(16, 57)
+17:
+  1:
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  2:
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 58)
+  6:
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 57)
+  - reach(16, 58)
+  7:
+  - move(17, 10)
+  - move(10, 16)
+  - reach(16, 57)
+18:
+  1:
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  2:
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 58)
+  3:
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  - reach(16, 58)
+  4:
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 56)
+  - reach(16, 57)
+  5:
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 58)
+  6:
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 57)
+  - reach(16, 58)
+  7:
+  - move(18, 10)
+  - move(10, 16)
+  - reach(16, 57)
