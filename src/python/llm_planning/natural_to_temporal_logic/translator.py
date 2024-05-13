@@ -1,13 +1,11 @@
 # code inspired from https://github.com/RoboCoachTechnologies/GPT-Synthesizer/blob/master/gpt_synthesizer/main.py
+
 import spot
 import os
 import argparse
 
-# from langchain.chains import LLMChain
-# from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 
-# from llm_planning.natural_to_temporal_logic.model import llm_init
 from llm_planning.natural_to_temporal_logic.prompt import (
     get_uuid_convert_prompt,
     get_translate_prompt,
