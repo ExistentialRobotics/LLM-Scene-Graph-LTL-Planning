@@ -116,9 +116,6 @@ class BuildingLoader:
         self.room_polygon_voxel_size2 = dict(Hanson=0.07)
         self.room_polygon_apad2 = dict()
         self.room_connection_dilate_iter = dict(Collierville=2)
-        # Scenes does not work yet: Merom
-        # Scenes of bad scene graph data: Corozal, Darden, Hanson
-        # Scenes of unsupported stairs: Coffeen
 
         self.load_scene_graph_file()
         self.load_mesh_file()

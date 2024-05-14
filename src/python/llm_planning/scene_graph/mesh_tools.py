@@ -120,41 +120,15 @@ def find_room_connections(building, floor, kernel_size=3, min_intersection=3):
     for room in building.rooms:
         if building.rooms[room].floor_number == floor:
             room_mask = room_map == int(room)
-            # plt.figure()
-            # plt.imshow(room_mask)
-            # plt.show()
             room_mask = cv2.dilate(room_mask.astype(np.uint8), kernel=kernel, iterations=2)
             room_mask = cv2.erode(room_mask.astype(np.uint8), kernel=kernel, iterations=2).astype(bool)
-
-            # plt.figure()
-            # plt.imshow(room_mask)
-            # plt.show()
-
             room_boundary_mask = np.zeros_like(room_mask)
             room_boundary = cv2.findContours(room_mask.astype(np.uint8), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)[0][0]
             room_boundary_mask[room_boundary[:, 0, 1], room_boundary[:, 0, 0]] = 1
-            # plt.figure()
-            # plt.imshow(room_boundary_mask)
-            # plt.show()
             wall_mask = cat_map == -1
-            # plt.figure()
-            # plt.imshow(wall_mask)
-            # plt.show()
             wall_mask = cv2.filter2D(wall_mask.astype(np.uint8), -1, kernel) > 0
-            # plt.figure()
-            # plt.imshow(wall_mask)
-            # plt.show()
-            # plt.figure()
-            # plt.imshow(room_boundary_mask)
-            # plt.show()
             room_boundary_mask[wall_mask] = 0
-            # plt.figure()
-            # plt.imshow(room_boundary_mask)
-            # plt.show()
             room_boundary_mask = cv2.filter2D(room_boundary_mask.astype(np.uint8), -1, kernel) > 0
-            # plt.figure()
-            # plt.imshow(room_boundary_mask)
-            # plt.show()
 
             room_boundary_masks[room] = room_boundary_mask
 
@@ -199,9 +173,6 @@ def draw_room_connections(building, resize_coef=10):
             for connection in building.rooms[room].connections:
                 if building.rooms[connection].floor_number != floor_char:
                     continue
-
-                # room_loc = grid_map.xy_to_rc(building.rooms[room].location[:2])
-                # connection_loc = grid_map.xy_to_rc(building.rooms[connection].location[:2])
 
                 room_loc = np.mean(np.argwhere(room_map == room) * resize_coef, axis=0).astype(int)
                 connection_loc = np.mean(np.argwhere(room_map == connection) * resize_coef, axis=0).astype(int)

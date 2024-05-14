@@ -331,15 +331,6 @@ if __name__ == "__main__":
         with open(filename, "wb") as file:
             pickle.dump(building, file)
 
-    # for room in building.rooms:
-    #     building.rooms[room].connections = set()
-    #
-    # for floor_num in range(building.num_floors):
-    #     floor_char = CHAR_DICT[floor_num]
-    #     building = mt.find_room_connections(building, floor_char, kernel_size=5, min_intersection=5)
-
     mt.draw_room_connections(building)
     mt.show_cat_map(building)
     save_as_yaml(building, environment)
-    # print_json(building)  # Uncomment to get the JSON representation
-    # dump_edges(building)  # Uncomment to get the edge list, used for visualizing the tree

@@ -135,12 +135,6 @@ def gen_task_state_desc(graph, edges, begin, destination, ap_desc):
         path = path[1]
     print("The remaining AP values for state {} is {}".format(begin, aps))
     desc = ", and ".join([ap_desc[i] for i in range(len(aps)) if aps[i] is True])
-    # for i in range(len(aps)):
-    #     if aps[i] is True:
-    #         if i < len(aps) - 1:
-    #             desc = desc + ap_desc[i] + ", and "
-    #         else:
-    #             desc = desc + ap_desc[i] + ". "
     print("Description of the remaining tasks: {}".format(desc))
     return desc
 
