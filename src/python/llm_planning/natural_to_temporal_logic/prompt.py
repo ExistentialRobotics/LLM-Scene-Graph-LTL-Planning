@@ -27,7 +27,7 @@ natural language: Enter room_2, room_3, and room_1.
 LTL:  ['AND', 'AND', 'enter(room_2)', 'enter(room_3)', 'enter(room_1)']
 
 natural language: Enter room_2, room_3, room_1.
-LTL:  ['AND", 'AND', 'enter(room_2)', 'enter(room_3)', 'enter(room_1)']
+LTL:  ['AND', 'AND', 'enter(room_2)', 'enter(room_3)', 'enter(room_1)']
 
 natural language: Clean every room_8, room_13, room_14, room_17, room_2, room_10, room_12, room_15, room_16, room_18, room_4, room_6, room_7, room_11 in the building.
 LTL:  ['AND', 'AND', 'AND', 'AND', 'AND', 'AND', 'AND', 'AND', 'AND', 'AND', 'AND', 'AND', 'AND', 'enter(room_8)', 'enter(room_13)', 'enter(room_14)', 'enter(room_17)', 'enter(room_2)', 'enter(room_10)', 'enter(room_12)', 'enter(room_15)', 'enter(room_16)', 'enter(room_18)', 'enter(room_4)', 'enter(room_6)', 'enter(room_7)', 'enter(room_11)']
@@ -130,7 +130,7 @@ natural language: Enter room_2 and room_1.
 LTL:  ['AND', 'enter(room_2)', 'enter(room_1)']
 
 natural language: Enter room_2, room_3, and room_1.
-LTL:  ['AND', 'enter(room_2)', 'enter(room_3)', 'enter(room_1)']
+LTL:  ['AND', 'AND', 'enter(room_2)', 'enter(room_3)', 'enter(room_1)']
 
 natural language: Enter room_2, room_3, room_1.
 LTL:  ['AND', 'enter(room_2)', 'enter(room_3)', 'enter(room_1)']
