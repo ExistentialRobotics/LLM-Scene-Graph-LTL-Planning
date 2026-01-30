@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Recent advances in metric, semantic, and topological mapping have equipped autonomous robots with semantic concept grounding capabilities to interpret natural language tasks.">
+    <meta name="keywords" content="LLM-Planning, Scene Graph, LTL Planning">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Optimal Scene Graph Planning with Large Language Model Guidance</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+                <a class="navbar-item" href="https://existentialrobotics.org">
+                    <span class="icon">
+                        <i class="fas fa-home"></i>
+                    </span>
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        More Research
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="https://existentialrobotics.org/LTLCodeGen">
+                            LTLCodeGen: Code Generation of Syntactically Correct Temporal Logic for Robot Task Planning
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">Optimal Scene Graph Planning with Large Language Model
+                            Guidance</h1>
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">
+                                <a href="https://daizhirui.github.io/">Zhirui Dai</a><sup>1</sup>,
+                            </span>
+                            <span class="author-block">
+                                <a href="https://arashasgharivaskasi-bc.github.io/">Arash
+                                    Asgharivaskasi</a><sup>1</sup>,
+                            </span>
+                            <span class="author-block">
+                                <a href="https://thaipduong.github.io/">Thai Duong</a><sup>1</sup>,
+                            </span>
+                            <span class="author-block">
+                                <a href="https://cn.linkedin.com/in/shusen-lin-a30495209">Shusen Lin</a><sup>1</sup>,
+                            </span>
+                        </div>
+
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">
+                                <a href="https://www.grasp.upenn.edu/people/mariliza-tzes/">Maria-Elizabeth
+                                    Tzes</a><sup>2</sup>,
+                            </span>
+                            <span class="author-block">
+                                <a href="https://www.georgejpappas.org/">George Pappas</a><sup>2</sup>,
+                            </span>
+                            <span class="author-block">
+                                <a href="https://natanaso.github.io/">Nikolay Atanasov</a><sup>1</sup>
+                            </span>
+                        </div>
+
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block"><sup>1</sup><a
+                                    href="https://existentialrobotics.org/">Existential Robotics Lab</a>,
+                                University of California San Diego</span>
+                        </div>
+
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block"><sup>2</sup><a href="https://www.grasp.upenn.edu/">GRASP Lab</a>,
+                                University of Pennsylvania, Philadelphia</span>
+                        </div>
+
+                        <div class="is-size-5 publication-authors" style="font-weight: bold; color: red;">
+                            <span class="author-block">ICRA 2024</span>
+                        </div>
+
+                        <div class="column has-text-centered">
+                            <div class="publication-links">
+                                <!-- PDF Link. -->
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/pdf/2309.09182.pdf"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fas fa-file-pdf"></i>
+                                        </span>
+                                        <span>Paper</span>
+                                    </a>
+                                </span>
+                                <span class="link-block">
+                                    <a href="https://arxiv.org/abs/2309.09182"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="ai ai-arxiv"></i>
+                                        </span>
+                                        <span>arXiv</span>
+                                    </a>
+                                </span>
+                                <!-- Code Link. -->
+                                <span class="link-block">
+                                    <a href="https://github.com/ExistentialRobotics/LLM-Scene-Graph-LTL-Planning"
+                                        class="external-link button is-normal is-rounded is-dark">
+                                        <span class="icon">
+                                            <i class="fab fa-github"></i>
+                                        </span>
+                                        <span>Code</span>
+                                    </a>
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero teaser">
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <strong>Abstract:</strong> Recent advances in metric, semantic, and topological mapping have equipped
+                autonomous robots with semantic concept grounding capabilities to interpret natural language tasks. This
+                work aims to leverage these new capabilities with an efficient task planning algorithm for hierarchical
+                metric-semantic models. We consider a scene graph representation of the environment and utilize a large
+                language model (LLM) to convert a natural language task into a linear temporal logic (LTL) automaton.
+                Our main contribution is to enable optimal hierarchical LTL planning with LLM guidance over scene
+                graphs. To achieve efficiency, we construct a hierarchical planning domain that captures the attributes
+                and connectivity of the scene graph and the task automaton, and provide semantic guidance via an LLM
+                heuristic function. To guarantee optimality, we design an LTL heuristic function that is provably
+                consistent and supplements the potentially inadmissible LLM guidance in multi-heuristic planning. We
+                demonstrate efficient planning of complex natural language tasks in scene graphs of virtualized real
+                environments.
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h2 class="title is-3 has-text-centered">Method Overview</h2>
+            <img id="teaser-image" src="./static/images/method_overview.png" alt="Method Overview"
+                style="width: 80%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+            <div class="hero-body">
+                Planning a natural language mission, μ : “Reach the oven in the kitchen”, in a scene graph G of the
+                Gibson environment Benevolence with object, room, and floor attributes. The terms “oven” and “kitchen”
+                in μ belong to the object and room attributes of the scene graph, respectively. The scene graph G is
+                described to the LLM using the connectivity of its attributes (attribute hierarchy) and the LLM is used
+                to translate μ to LTL formula φ<sub>μ</sub> and associated Automaton M<sub>φ</sub>. We construct a
+                hierarchical planning domain from the scene graph, and use multi-resolution multi-heuristic planning to
+                plan the mission execution. In addition to mission translation, the LLM is used to provide heuristic
+                guidance to accelerate the planning, while an LTL heuristic is used to guarantees optimality.
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <!-- Paper video. -->
+            <div class="columns is-centered has-text-centered">
+                <div class="column is-four-fifths">
+                    <h2 class="title is-3">Video</h2>
+                    <div class="publication-video">
+                        <iframe width="1840" height="1035" src="https://www.youtube.com/embed/dZQnzeGAqzE"
+                            title="Optimal Scene Graph Planning with Large Language Model Guidance" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <!--/ Paper video. -->
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h2 class="title is-3 has-text-centered">Scene Graph and LTL Automaton</h2>
+            <div class="columns is-centered" style="margin-left: auto; margin-right: auto; display: block;">
+                <image id="scene-graph-image" src="./static/images/scene_graph.png" alt="Scene Graph"
+                    style="width: 45%; height: auto;"></image>
+                <image id="automaton-image" src="./static/images/ltl.png" alt="Automaton"
+                    style="width: 45%; height: auto;"></image>
+            </div>
+            <div class="hero-body">
+                We represent the environment as a scene graph (left) where nodes correspond to locations with
+                associated attributes (e.g., object, room, floor) and edges represent belonging or connectivity
+                relations. The natural language task μ is translated by the LLM to an LTL formula φ<sub>μ</sub>
+                that is represented as a finite state automaton M<sub>φ</sub> (right).
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h2 class="title is-3 has-text-centered">Scene Graph Hierarchy Description</h2>
+            <img id="planning-domain-image" src="./static/images/scene-graph-hierarchy.png" alt="Planning Domain"
+                style="width: 100%; height: auto;">
+            <div class="hero-body">
+                Due to the complexity of scene graphs, directly describing them to LLMs can exceed their context window
+                size and token rate limits. To address this, we extract the attributes and hierarchy of the scene graph
+                and present it as an attribute hierarchy in YAML format. This hierarchical description allows the LLM
+                to effectively understand and utilize the scene graph information for task planning.
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h2 class="title is-3 has-text-centered">LLM Task Translation</h2>
+            <img id="llm-translation-image" src="./static/images/llm-to-ltl.png" alt="LLM Task Translation"
+                style="width: 100%; height: auto;">
+            <div class="hero-body">
+                We prompt the LLM with the hierarchical description of the scene graph and a natural language task μ
+                (e.g., “Reach the oven in the kitchen”) to generate an LTL formula φ<sub>μ</sub> that captures the task
+                requirements. The LTL formula is then converted to a finite state automaton M<sub>φ</sub> for use in
+                planning.
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h2 class="title is-3 has-text-centered">Hierarchical Planning Domain</h2>
+            <div class="columns is-vcentered">
+                <div class="column is-half">
+                    <img id="planning-domain-image" src="./static/images/hierarchical_planning_domain.png"
+                        alt="Planning Domain" style="width: 100%; height: 100%; object-fit: contain;">
+                </div>
+                <div class="column is-half"
+                    style="display: flex; flex-direction: column; justify-content: space-between; height: auto;">
+                    <img src="./static/images/hierarchical_planning_domain_edge_cond1.png" alt="Figure 1"
+                        style="width: 55%; height: 40%; flex: 1; object-fit: contain;">
+                    <img src="./static/images/hierarchical_planning_domain_edge_cond2.png" alt="Figure 2"
+                        style="width: 55%; height: 40%; flex: 1; object-fit: contain;">
+                    <img src="./static/images/hierarchical_planning_domain_edge_cond3.png" alt="Figure 3"
+                        style="width: 55%; height: 40%; flex: 1; object-fit: contain;">
+                </div>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-one-fourth">
+                    <img src="./static/images/Boston_0_1024.map-opened_states-heuristic_id_0.gif"">
+                </div>
+                <div class=" column is-one-fourth">
+                    <img src=" ./static/images/Boston_0_1024.map-opened_states-heuristic_id_1.gif">
+                </div>
+                <div class="column is-one-fourth">
+                    <img src="./static/images/Boston_0_1024.map-opened_states-heuristic_id_2.gif">
+                </div>
+                <div class="column is-one-fourth">
+                    <img src="./static/images/Boston_0_1024.map-opened_states-heuristic_id_3.gif">
+                </div>
+            </div>
+            <div class="hero-body">
+                We construct a hierarchical planning domain from the scene graph and the LTL automaton. Each level
+                in the hierarchical planning domain is a graph where nodes are the product of scene graph nodes and
+                automaton states. Edges in the hierarchical planning domain represent feasible transitions between
+                nodes, which should satisfy three conditions: 1) the edge is a transition from one node in the scene
+                graph to the boundary of another node; 2) the transition should respect the automaton state
+                transitions; 3) the transition should have the minimal cost among all possible transitions between
+                the two nodes in the scene graph. This hierarchical structure allows efficient planning by enabling
+                the planner to operate at multiple levels of abstraction.
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h2 class="title is-3 has-text-centered">LTL Heuristics</h2>
+            <p>To guarantee the optimality of the planning process, we propose a consistent LTL heuristic:</p>
+            <img id="ltl-heuristic-image" src="./static/images/ltl-heuristics-1.png" alt="LTL Heuristic"
+                style="width: 60%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+            <p>where the cost function c of label transition and the function g of cost to reach the accepting state set
+                are defined as:</p>
+            <img id="ltl-heuristic-image-2" src="./static/images/ltl-heuristics-2.png" alt="LTL Heuristic 2"
+                style="width: 60%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+            <img id="ltl-heuristic-image-2" src="./static/images/ltl-heuristics-3.png" alt="LTL Heuristic 3"
+                style="width: 60%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h2 class="title is-3 has-text-centered">LLM Heuristics</h2>
+            <img id="llm-heuristic-image" src="./static/images/llm-heuristics.png" alt="LLM Heuristic"
+                style="width: 80%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+            <div class="hero-body">
+                We design an LLM heuristic function that leverages the LLM's understanding of the scene graph and task
+                requirements to provide semantic guidance during planning. The LLM heuristic estimates the cost to reach
+                the goal by considering the attributes of the scene graph nodes and their relevance to the task at hand.
+                Given the current state (s, q) in the planning domain with the task context, we prompt the LLM to obtain
+                a possible task solution, which can be used to estimate the cost to reach the goal from the current
+                state. This heuristic aims to accelerate the planning process by guiding the search towards promising
+                regions of the state space based on semantic information. It may make inaccurate estimations, so it is
+                used in conjunction with the consistent LTL heuristic to ensure optimality.
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h2 class="title is-3 has-text-centered">Experimental Results</h2>
+            <!-- <div class="columns is-centered">
+                <div class="column is-one-third">
+                    <img id="experimental-results-image1" src="./static/images/cost_vs_time_1_0.png"
+                        alt="Cost-Time Results 1"
+                        style="width: 100%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+                </div>
+                <div class="column is-one-third">
+                    <img id="experimental-results-image2" src="./static/images/cost_vs_time_1_2.png"
+                        alt="Cost-Time Results 2"
+                        style="width: 100%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+                </div>
+                <div class="column is-one-third">
+                    <img id="experimental-results-image3" src="./static/images/cost_vs_time_1_3.png"
+                        alt="Cost-Time Results 3"
+                        style="width: 100%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+                </div>
+            </div> -->
+            <div class="columns is-centered">
+                <div class="column is-one-fifth">
+                    <img id="experimental-results-image4" src="./static/images/expansion_anchor_level.png"
+                        alt="Expansion-Iterations Results1"
+                        style="width: 100%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+                </div>
+                <div class="column is-one-fifth">
+                    <img id="experimental-results-image5" src="./static/images/expansion_occupancy_level.png"
+                        alt="Expansion-Iterations Results1"
+                        style="width: 100%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+                </div>
+                <div class="column is-one-fifth">
+                    <img id="experimental-results-image6" src="./static/images/expansion_object_level.png"
+                        alt="Expansion-Iterations Results1"
+                        style="width: 100%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+                </div>
+                <div class="column is-one-fifth">
+                    <img id="experimental-results-image7" src="./static/images/expansion_room_level.png"
+                        alt="Expansion-Iterations Results1"
+                        style="width: 100%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+                </div>
+                <div class="column is-one-fifth">
+                    <img id="experimental-results-image8" src="./static/images/expansion_floor_level.png"
+                        alt="Expansion-Iterations Results1"
+                        style="width: 100%; height: auto; margin-left: auto; margin-right: auto; display: block;">
+                </div>
+            </div>
+            <div class="hero-body">
+                We evaluate our proposed hierarchical LTL planning approach with LLM guidance in various virtualized
+                environments represented as scene graphs. The results demonstrate that our method is able to efficiently
+                plan complex natural language tasks while ensuring optimality. The combination of the LLM heuristic and
+                the consistent LTL heuristic significantly reduces the number of state expansions and planning time
+                compared to using either heuristic alone or no heuristics. For detailed experimental results and
+                analysis, please refer to the paper.
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content">
+            <h2 class="title">BibTeX</h2>
+            <pre><code>@inproceedings{dai2024optimal,
+        author={Dai, Zhirui and Asgharivaskasi, Arash and Duong, Thai and Lin, Shusen and Tzes, Maria-Elizabeth and Pappas, George and Atanasov, Nikolay},
+        booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+        title={{Optimal Scene Graph Planning with Large Language Model Guidance}},
+        year={2024},
+        pages={14062-14069},
+        keywords={Measurement;Grounding;Large language models;Semantics;Automata;Planning;Logic},
+        doi={10.1109/ICRA57147.2024.10610599}}
+}</code></pre>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <a class="icon-link" href="https://arxiv.org/pdf/2309.09182.pdf">
+                    <i class="fas fa-file-pdf"></i>
+                </a>
+                <a class="icon-link" href="https://github.com/ExistentialRobotics/LLM-Scene-Graph-LTL-Planning"
+                    class="external-link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="content">
+                        <p>
+                            We gratefully acknowledge support from ARL DCIST CRA W911NF-17-2-0181.
+                        </p>
+                        <p>
+                            This website is licensed under a <a rel="license"
+                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                                Commons Attribution-ShareAlike 4.0 International License</a>.
+                        </p>
+                        <p>
+                            This webpage template is from <a
+                                href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>. We
+                            sincerely thank the developers for open-sourcing this template.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
