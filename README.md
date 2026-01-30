@@ -2,7 +2,7 @@
 
 Optimal Scene Graph Planning with Large Language Model Guidance
 
-[Project Page](https://existentialrobotics.org/pages/llm-planning) | [Paper](https://arxiv.org/abs/2309.09182)
+[Project Page](https://existentialrobotics.org/LLM-Scene-Graph-LTL-Planning) | [Paper](https://arxiv.org/abs/2309.09182)
 
 </h1>
 
@@ -161,18 +161,18 @@ Usage: ./build/cpp/src/cpp/amra_ltl_scene_graph [options] amra_ltl_scene_graph
   --init-grid-z arg                     initial z position in grids.
   --robot-radius arg (=0)               robot radius.
   --object-reach-radius arg (=0.6)      object reach radius.
-  --max-level arg                       maximum level to plan: kOcc, kObject, 
-                                        kRoom, kFloor, anchor cannot be 
+  --max-level arg                       maximum level to plan: kOcc, kObject,
+                                        kRoom, kFloor, anchor cannot be
                                         disabled.
-  --ltl-heuristic-config arg            a sequence of 0,1 to indicate whether 
-                                        to use LTL heuristic for each level up 
-                                        to the max_level: anchor, kOcc, 
+  --ltl-heuristic-config arg            a sequence of 0,1 to indicate whether
+                                        to use LTL heuristic for each level up
+                                        to the max_level: anchor, kOcc,
                                         kObject, kRoom, kFloor.
-  --llm-heuristic-config arg            a sequence of 0,1 to indicate whether 
-                                        to use LLM heuristic for each level up 
-                                        to the max_level: anchor, kOcc, 
+  --llm-heuristic-config arg            a sequence of 0,1 to indicate whether
+                                        to use LLM heuristic for each level up
+                                        to the max_level: anchor, kOcc,
                                         kObject, kRoom, kFloor.
-  --repeat arg (=1)                     repeat the experiment for multiple 
+  --repeat arg (=1)                     repeat the experiment for multiple
                                         times.
   --save-amra-log                       save AMRA* log
   --hold-for-visualization              pause for visualization
